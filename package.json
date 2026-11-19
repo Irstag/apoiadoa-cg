@@ -1,0 +1,16 @@
+{
+  "name": "apoiadoa-cg",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "api": "node --env-file=.env server/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "vite-plus": "^1.6.0"
+  }
+}
